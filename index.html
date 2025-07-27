@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do list</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="conatiner">
+        <div class="to-do-list">
+            <h1>To-do list</h1>
+            <form action="" id="to-do-form">
+                <div class="field">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Name" id="name" name="name">
+                </div>
+                <div class="field">
+                    <label for="age">Age</label>
+                    <input type="text" placeholder="Age" id="age" name="age">
+                </div>
+                <div class="field">
+                    <label for="city">City</label>
+                    <input type="text" placeholder="City" id="city" name="city">
+                </div>
+                <button type="submit" id="btn">Add USer</button>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tableData">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

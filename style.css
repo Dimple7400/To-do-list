@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conatiner{
+    margin : 30px 0px;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(77, 15, 221);
+}
+.field{
+    margin: 20px 0px;
+}
+form{
+    text-align: center;
+}
+label{
+    font-size: 20px;
+    width: 5%;
+    display: inline-block;
+}
+input{
+    padding: 10px 50px 10px 10px;
+}
+form button{
+    padding: 10px 20px;
+    margin-left: 50px;
+}
+form button:hover{
+    background-color: black;
+    color: white;
+}
+table button{
+    padding: 10px 30px;
+    color: black;
+}
+table{
+    width: 70%;
+    margin: 50px auto;
+}
+table, tr, th,td{
+    text-align: center;
+}
+table th{
+    padding: 10px;
+    background-color: aquamarine;
+}
+table td{
+    padding: 7px;
+    background-color: rgb(24, 172, 230);
+}
+.tableBtn{
+    width: 32%;
+}
+.editBtn{
+    background-color: greenyellow;
+    border: none;
+}
+.deleteBtn{
+    background-color: red;
+    border: none;
+}
